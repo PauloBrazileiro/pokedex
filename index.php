@@ -15,7 +15,7 @@
             <div class="input-group input-group-lg">
             
                 <!-- <span class="input-group-text" id="inputGroup-sizing-lg">PKD</span> -->
-                <input name="inputUrl" id="entrada" type="text" class="form-control" placeholder="Coloque o nome ou um numero do pokemon." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                <input name="inputUrl" id="entrada" type="text" class="form-control" placeholder="Nome, ID ou deixar em branco" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                 <button id="btn" type="submit" class="btn btn-danger btn-lg" ng-click="anyFunction()">PESQUISAR</button>    
             </div>
             <span class="text-center">você pode clicar em PESQUISAR para pesquisar um pokemon aleatorio</span>
@@ -23,18 +23,18 @@
     </div>
     <div class="container-sm mt-5 d-flex justify-content-center">
         <div class="card justify-content-center pokeimg stat" style="width: 19rem;">
-            <h4 style="text-transform:uppercase" id="titleCard" class="card-title text-center">title</h4>
+            <h4 style="text-transform:uppercase mt-1" id="titleCard" class="card-title text-center">title</h4>
             <img id="imgCard" src="..." class="card-img-top" alt="...">
             <div class="card-body stat">
-                <ul style="text-transform:uppercase"  class="list-group list-group-horizontal justify-content-center">
-                   <li class="list-group-item" id="typeOne"></li>
-                   <li class="list-group-item" id="typeTwo"></li> 
-                </ul>
-                <ul style="text-transform:uppercase" class="mt-1 list-group-flush list-group list-group-horizontal justify-content-center">
+                <ul style="text-transform:uppercase" class="list-group-flush list-group list-group-horizontal justify-content-center">
                     <li class="list-group-item list-group-item-danger" >SPEED<p id="statusOne"></p></li>
                     <li class="list-group-item list-group-item-danger" >ATAQUE<p id="statusTwo"></p></li> 
                     <li class="list-group-item list-group-item-danger" >DEFESA<p id="statusThree"></p></li> 
                  </ul>
+                <ul style="text-transform:uppercase"  class="mt-1 list-group list-group-horizontal justify-content-center">
+                   <li class="list-group-item" id="typeOne"></li>
+                   <li class="list-group-item" id="typeTwo"></li> 
+                </ul>
             </div>
         </div>
     </div>
