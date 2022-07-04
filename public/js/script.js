@@ -3,6 +3,8 @@ btn.addEventListener('click', function() {
     // gerar um numero random entre 1 e 905
     numberPokemon = Math.floor(Math.random()*905);
 
+    // url padrão para pesquisa, caso nada for digitado
+    urlApi = "https://pokeapi.co/api/v2/pokemon/"+numberPokemon;
     //captura o valor digitado no input
     entrada = document.getElementById('entrada').value
 
