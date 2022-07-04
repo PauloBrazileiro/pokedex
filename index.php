@@ -15,10 +15,10 @@
             <div class="input-group input-group-lg">
             
                 <!-- <span class="input-group-text" id="inputGroup-sizing-lg">PKD</span> -->
-                <input name="inputUrl" id="entrada" type="text" class="form-control" placeholder="Nome, ID ou deixar em branco" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                <input name="inputUrl" id="entrada" type="text" class="form-control" placeholder="Nome ou ID" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                 <button id="btn" type="submit" class="btn btn-danger btn-lg" ng-click="anyFunction()">PESQUISAR</button>    
             </div>
-            <span class="text-center">você pode clicar em PESQUISAR para pesquisar um pokemon aleatorio</span>
+            <span class="text-center text-danger">você pode clicar em PESQUISAR para pesquisar um pokemon aleatorio</span>
         </form>
     </div>
     <div class="container-sm mt-5 d-flex justify-content-center">

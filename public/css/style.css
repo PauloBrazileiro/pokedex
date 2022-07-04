@@ -2,7 +2,6 @@
 	font-family: 'Luckiest Guy';
 
 }
-
 p {
 	margin: 0;
 
@@ -75,11 +74,4 @@ p {
 }
 .ghost {
 	background-color: #705898 !important;
-}
-
-@media (min-width: 600px)
-{
-  .input{
-    font-size:0.8rem;
-   }
 }
