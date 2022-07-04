@@ -22,10 +22,10 @@
         </form>
     </div>
     <div class="container-sm mt-5 d-flex justify-content-center">
-        <div class="card justify-content-center pokeimg" style="width: 19rem;">
+        <div class="card justify-content-center pokeimg stat" style="width: 19rem;">
+            <h4 style="text-transform:uppercase" id="titleCard" class="card-title text-center">title</h4>
             <img id="imgCard" src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h4 style="text-transform:uppercase" id="titleCard" class="card-title text-center">title</h4>
+            <div class="card-body stat">
                 <ul style="text-transform:uppercase"  class="list-group list-group-horizontal justify-content-center">
                    <li class="list-group-item" id="typeOne"></li>
                    <li class="list-group-item" id="typeTwo"></li> 

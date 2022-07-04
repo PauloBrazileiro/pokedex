@@ -1,5 +1,6 @@
 *{
 	font-family: 'Luckiest Guy';
+	border:0px;
 }
 
 p {
@@ -8,7 +9,7 @@ p {
 	padding: 0;
 	font-size: 24px;
 }
-.stat ul, li{
+.stat, ul, li{
 	background-color: #ff4b62 !important;
 	text-align: center;
 	color:white !important; 
