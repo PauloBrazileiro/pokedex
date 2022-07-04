@@ -21,7 +21,7 @@
             <span class="text-center">você pode clicar em PESQUISAR para pesquisar um pokemon aleatorio</span>
         </form>
     </div>
-    <div class="container-sm mt-5">
+    <div class="container-sm mt-5 d-flex justify-content-center">
         <div class="card justify-content-center pokeimg" style="width: 19rem;">
             <img id="imgCard" src="..." class="card-img-top" alt="...">
             <div class="card-body">

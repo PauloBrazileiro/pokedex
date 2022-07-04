@@ -9,9 +9,10 @@ btn.addEventListener('click', function() {
         dataType: "json",
       })
         .done(function( msg ) {
-
+            var imgPoke = 'https://img.pokemondb.net/artwork/'+msg['name']+'.jpg' 
             $('#titleCard').text(msg['name']);
-            $('#imgCard').attr('src',msg['sprites']['other']['home']['front_default']);
+            $('#imgCard').attr('src',imgPoke);
+            //$('#imgCard').attr('src',msg['sprites']['other']['home']['front_default']);
             $('#typeOne').text(msg['types'][0]['type']['name']);
             $('#typeOne').attr('class','list-group-item '+ msg['types'][0]['type']['name']);
             if(msg['types'].length > 1 ){
