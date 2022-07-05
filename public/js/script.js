@@ -72,17 +72,16 @@ btn.addEventListener('click', function() {
                 $('#typeTwo').text(msg['types'][1]['type']['name'])
                 $('#typeTwo').attr('style','display: inherite;')
                 $('#typeTwo').attr('class','list-group-item '+ msg['types'][1]['type']['name'])
-                //$('#text-type').text(tipos[msg['types'][0]['type']['name']])
             }else{
                 $('#typeTwo').text('')
                 $('#typeTwo').attr('style','display: none;')
-                //$('#text-type2').text(tipos[msg['types'][1]['type']['name']])
+
             }
 
             $('#statusOne').text(msg['stats'][5]['base_stat'])
             $('#statusTwo').text(msg['stats'][1]['base_stat'])
             $('#statusThree').text(msg['stats'][2]['base_stat'])
-            //$('#vantagens2').text(tipos[msg['types'][0]['type']['name']])
+
             
         });
 

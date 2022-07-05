@@ -1,6 +1,11 @@
 *{
 	font-family: 'Luckiest Guy';
 }
+.bg-poke{
+	background-image: url('/public/img/bg1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 p {
 	margin: 0;
