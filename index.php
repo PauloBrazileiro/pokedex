@@ -12,7 +12,7 @@
     <div class="container-sm mt-5 ">
        <img class=".img-fluid justify-content-center" src="public/img/logo.png">
         <form class="row g-3" method="POST"></form>    
-            <div class="input-group input-group-lg">
+            <div class="input-group input-group-lg mt-3">
             
                 <!-- <span class="input-group-text" id="inputGroup-sizing-lg">PKD</span> -->
                 <input name="inputUrl" id="entrada" type="text" class="form-control" placeholder="Nome ou ID" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
