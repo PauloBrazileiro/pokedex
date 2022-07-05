@@ -21,7 +21,7 @@
             <span class="text-center text-dark">Você pode deixar em branco para pesquisar um pokémon aleatório</span>
         </form>
     </div>
-    <div class="container-sm mt-5 d-flex justify-content-center">
+    <div class="container-sm mb-5 mt-5 d-flex justify-content-center">
         <div id="card" class="card justify-content-center pokeimg stat" style="display: none;" >
             <h4 style="text-transform:uppercase mt-1" id="titleCard" class="card-title text-center">title</h4>
             <img id="imgCard" src="..." class="card-img-top" alt="...">
