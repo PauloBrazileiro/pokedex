@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container-sm mt-5 ">
-        <h1 class="text-center mb-4"><img src="public/img/logo.png"></h1>
+        <h1 class="text-center mb-4"><img class=".img-fluid" src="public/img/logo.png"></h1>
         <form class="row g-3" method="POST"></form>    
             <div class="input-group input-group-lg">
             
